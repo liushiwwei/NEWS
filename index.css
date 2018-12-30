@@ -1,0 +1,173 @@
+/* 内容的代码 */
+#content_left {
+    display: none;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#content_left li {
+    height: 112px;
+    width: 1200px;
+    display: block;
+    border-bottom: 1px solid  #dfdfdf;
+}
+
+#content_left li #ctt_one {
+    width: 84px;
+    height: 84px;
+    background-color: #f2f2f2;
+    position: relative;
+    margin-top: 24px;
+}
+
+#content_left li #ctt_one span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666666;
+    position: absolute;
+    left: 28px;
+    top: 15px;
+}
+
+#content_left li #ctt_one i {
+    font-size: 14px;
+    color: #666666;
+    position: absolute;
+    left: 14px;
+    top: 52px;
+}
+
+#content_left li>a {
+    font-size: 18px;
+    line-height: 36px;
+    margin-left: 100px;
+    float: left;
+    margin-top: -88px;
+}
+#content_left li a:hover {
+    color: red;
+}
+
+#content_left li>span {
+    font-size: 14px;
+    line-height: 22px;
+    float: left;
+    margin-left: 100px;
+    margin-top: -42px;
+}
+
+/* 底部的代码 */
+
+#bottom {
+    height: 190px;
+    background-color: #1b252e;
+    margin-top: 48px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bottom .news_bottom {
+    width: 1050px;
+    height: 130px;
+    display: block;
+    border-top: 1px solid #666;
+    margin: 32px auto 0;
+}
+
+#bottom .news_bottom .shou_list {
+    margin: 14px 188px 0;
+}
+#bottom .news_bottom .shou_list li {
+    margin-top: 14px;
+    margin-left: 70px;
+    float: left;
+}
+#bottom .news_bottom .shou_list a {
+    font-size: 14px;
+    line-height: 14px;
+    color: #8b939d; 
+}
+
+#bottom .news_bottom>span {
+    font-size: 14px;
+    line-height: 14px;
+    color: #8b939d; 
+    float: left;
+    display:inline-block;
+    margin: 29px  0 15px 365px ;
+}
+
+#bottom .news_bottom>i {
+    font-size: 14px;
+    line-height: 14px;
+    color: #8b939d; 
+    float: left;
+    display:inline-block;
+    margin: 59px  0 15px -232px ;
+}
+
+
+
+
+
+
+
+#content_right {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#content_right li {
+    height: 112px;
+    width: 1200px;
+    display: block;
+    border-bottom: 1px solid  #dfdfdf;
+}
+
+#content_right li #ctt_two {
+    width: 84px;
+    height: 84px;
+    background-color: #f2f2f2;
+    position: relative;
+    margin-top: 24px;
+}
+
+#content_right li #ctt_two span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666666;
+    position: absolute;
+    left: 28px;
+    top: 15px;
+}
+
+#content_right li #ctt_two i {
+    font-size: 14px;
+    color: #666666;
+    position: absolute;
+    left: 14px;
+    top: 52px;
+}
+
+#content_right li>a {
+    font-size: 18px;
+    line-height: 36px;
+    margin-left: 100px;
+    float: left;
+    margin-top: -88px;
+}
+#content_right li a:hover {
+    color: red;
+}
+
+#content_right li>span {
+    font-size: 14px;
+    line-height: 22px;
+    float: left;
+    margin-left: 100px;
+    margin-top: -42px;
+}

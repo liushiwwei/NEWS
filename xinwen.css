@@ -1,0 +1,35 @@
+/* 新闻内容 */
+#news_xw {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#news_xw #one_one{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.news_midd {
+    position: relative;
+    margin: 0 auto;
+    height: 120px;
+    border-bottom: #dfdfdf 1px solid;
+}
+.news_midd .news_xw {
+    font-size: 35px;
+    line-height: 35px;
+    display: block;
+    margin-top: 48px;
+    margin: 48px 24% 20px;
+}
+.news_midd>i{
+    font-size: 14px;
+    line-height: 14px;
+    color: #8b939d; 
+    display: block;
+    margin-top: 48px;
+    margin: 48px 45% 0;
+}
+

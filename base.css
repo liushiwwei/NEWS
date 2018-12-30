@@ -1,0 +1,85 @@
+/* 初始化代码 */
+
+body,
+div,
+span,
+p,
+a,
+input,
+img,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+i,
+em,
+del,
+strong,
+ins {
+    margin: 0;
+    padding: 0;
+}
+/* 清除内外边距 */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+/* 清除a标签的默认样式 */
+
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+/* 清除input边框以及外轮廓线 */
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+} */
